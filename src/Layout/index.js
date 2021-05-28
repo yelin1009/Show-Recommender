@@ -1,13 +1,10 @@
 import React from "react";
-import Header from "./header";
-import Main from "./main";
-import { Switch, Route } from "react-router-dom";
+import Home from "./home";
 
 function Layout() {
   return (
     <div>
-      <Header />
-      <Main />
+      <Home />
     </div>
   );
 }

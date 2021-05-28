@@ -1,11 +1,14 @@
 import "./layout.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
     <section>
       <div>
-        <button class="btn">Start Here</button>
+        <Link to="/form" class="btn">
+          Start Here
+        </Link>
       </div>
     </section>
   );
